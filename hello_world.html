@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Coding Blog</title>
+<meta name="description" content="Welcome to Coding Blog">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="one.js" type="text/javascript">
+</script>
+<script src="two.js" type="text/javascript">
+</script>
+<style type="text/css">
+ span.c1 {color:red}
+</style>
+</head>
+<body>
+<!-- Website Starts Here! / Comment select, text, checkbox, radio, submit-->
+<div id="Main">
+<h1>Welcome to Coding Blog.</h1>
+<p>The following links will show you where you can learn to <span class="c1">code</span></p>
+<ul>
+<li><a href="http://www.codeacademy.com">CodeAcademy</a></li>
+<li><a href="http://www.teamtreehouse.com">TeamTreeHouse</a></li>
+<li><a href="http://www.codingdojo.com">CodingDojo</a></li>
+<li><a href="http://www.devbootcamp.com">DevBootcamp</a></li>
+</ul>
+<h3>What you learn:</h3>
+<h4>Overview:</h4>
+<table>
+<thead>
+<tr>
+<td></td>
+<td>CodeAcademy</td>
+<td>TeamTreeHouse</td>
+<td>CodingDojo</td>
+<td>DevBootcamp</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>x</td>
+<td>-</td>
+<td>x</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Ruby</td>
+<td>x</td>
+<td>x</td>
+<td>-</td>
+<td>x</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>x</td>
+<td>x</td>
+<td>-</td>
+<td>x</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Want to know more?</h2>
+<form action="sendemail.php" method="post">
+<p>Contact Form</p>
+<label>First Name:<input type="text" name="first_name"></label> <label>Last Name:<input type="text" name="last_name"></label> <label>Email:<input type="text" name="email"></label>
+<p>Select your Interest:</p>
+<label><input type="radio" name="CodeAcademy" value="CodeAcademy"> CodeAcademy</label> <label><input type="radio" name="TeamTreeHouse" value="TeamTreeHouse"> TeamTreeHouse</label> <label><input type="radio" name="CodingDojo" value="CodingDojo"> CodingDojo</label> <label><input type="radio" name="DevBootcamp" value="DevBootcamp"> DevBootcamp</label>
+<p>Select 3 of your favorite languages:</p>
+<label><input type="checkbox" name="color" value="Python">Python</label> <label><input type="checkbox" name="color" value="Ruby">Ruby</label> <label><input type="checkbox" name="color" value="PHP">PHP</label>
+<p>Brief description of your current skillset:</p>
+<textarea name="description">
+</textarea>
+ <input type="submit" value="Submit"></form>
+</body>
+</html>
